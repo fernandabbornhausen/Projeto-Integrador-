@@ -2,7 +2,7 @@
     font-family: "rocaone";
     src: url(./RocaOne-Th.ttf);
     font-family: "jetbrains";
-    src: url(./JetBrainsMono[wght].ttf)
+    src: url(./JetBrainsMono[wght].ttf);
 }
 body { /*Estiliza o corpo da pagina*/
     font-family: Arial, sans-serif;
