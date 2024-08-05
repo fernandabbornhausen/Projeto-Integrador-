@@ -40,7 +40,7 @@ p { /*Subtexto*/
     padding: 10px; /*Adiciona preenchemento, ou seja, tamanho interno*/
     font-size: 16px;
     border: 1px solid #ccc; /*Borda quando clica, ou seja, sublinhado*/
-    border-radius: 10px; /*Arredonda os cantos da borda*/
+    border-radius: 15px; /*Arredonda os cantos da borda*/
     width: 200px; /*Largura do campo de pesquisa*/
 } 
 
