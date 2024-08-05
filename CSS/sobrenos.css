@@ -1,0 +1,49 @@
+body {
+    background-color: #0a5247;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    height: 50;
+}
+h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    height: 50;
+}
+p {
+    color: white;
+    text-align: left;
+    font-size: 22px;
+}
+h4 {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.fundo {
+    background-image: url(../fotos/Interface.jpg);
+}
+header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    margin-bottom: 5px;
+}
+ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+} 
+nav ul li {
+    padding-left: 15px;
+    list-style-type: none;
+}
+.container {
+    display: flex;
+}
