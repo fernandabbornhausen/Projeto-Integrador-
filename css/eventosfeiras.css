@@ -5,8 +5,8 @@
     src: url(./JetBrainsMono[wght].ttf);
 }
 body { /*Estiliza o corpo da pagina*/
-    font-family: Arial, sans-serif;
     background-color: #e7e8e9; /*Fundo da pagina*/
+    font-family: Arial, sans-serif;
     margin: 0; 
     padding: 0; 
 } 
@@ -40,7 +40,7 @@ p { /*Subtexto*/
     padding: 10px; /*Adiciona preenchemento, ou seja, tamanho interno*/
     font-size: 16px;
     border: 1px solid #ccc; /*Borda quando clica, ou seja, sublinhado*/
-    border-radius: 15px; /*Arredonda os cantos da borda*/
+    border-radius: 10px; /*Arredonda os cantos da borda*/
     width: 200px; /*Largura do campo de pesquisa*/
 } 
 
