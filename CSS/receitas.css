@@ -1,0 +1,43 @@
+body {
+    background-color: #F0F0F0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #F0F0F0;
+}
+
+h1 {
+    color: #556B2F;
+    font-size: 5em;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+}
+
+.recipe {
+    text-align: center;
+    margin: 10px;
+}
+
+.recipe img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h4 {
+    color: #556B2F;
+    font-size: 1.2em;
+    margin-top: 10px;
+}

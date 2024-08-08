@@ -10,13 +10,12 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #fff;
-    background-color: #556B2F; /* Verde musgo */
+    background-color: #556B2F; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 20px; /* Ajusta o padding para que não sobreponha o conteúdo */
-    min-height: 100vh; /* Garante que a altura mínima seja 100vh */
-    margin: 0;
+    padding: 0 20px; 
+    min-height: 100vh; 
 }
 
 /* Estilo do cabeçalho */
@@ -28,75 +27,73 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #556B2F; /* Fundo verde musgo para o cabeçalho */
-    padding: 10px 0; /* Espaço ao redor do conteúdo do cabeçalho */
-    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+    background-color: #556B2F; 
+    padding: 10px 0; 
+    z-index: 1000; 
 }
 
 .header-content {
     display: flex;
     align-items: center;
-    gap: 20px; /* Espaço entre o logo e o título */
+    gap: 20px; 
 }
 
 header img {
-    width: 120px; /* Ajusta o tamanho do logo */
+    width: 120px; 
 }
 
 header h1 {
-    font-size: 4vw; /* Ajusta o tamanho da fonte do h1 */
+    font-size: 4vw; 
     color: #fff;
     text-align: center;
-    margin: 0; /* Remove qualquer margem adicional */
+    margin: 0; 
 }
 
-/* Estilo do main */
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1; /* Permite que o main ocupe o espaço restante disponível */
+    flex: 1; 
     width: 100%;
-    padding: 20px; /* Espaçamento interno ao redor do conteúdo */
-    margin-top: 80px; /* Adiciona margem superior para descer o conteúdo abaixo do cabeçalho fixo */
-}
+    padding: 20px;
+    margin-top: 80px; 
 
-/* Wrapper para o conteúdo principal */
+}
 .content-wrapper {
     display: flex;
     align-items: center;
-    gap: 30px; /* Espaço entre a imagem e o conteúdo */
+    gap: 30px; 
     width: 100%;
-    max-width: 1200px; /* Define a largura máxima para o conteúdo */
-    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
-/* Estilo da imagem da atendente */
+
 .atendente-img {
-    width: 300px; /* Mantém o tamanho da imagem da atendente */
+    width: 300px; 
     height: auto;
-    border-radius: 10px; /* Opcional: adiciona cantos arredondados */
+    border-radius: 10px; 
 }
 
-/* Estilo das informações de contato */
+
 .contact-info {
-    text-align: center; /* Centraliza o texto */
+    text-align: center; 
     color: #fff;
-    width: 60%; /* Ajusta a largura para permitir mais espaço para o texto */
+    width: 60%; 
 }
 
 .contact-info h2 {
-    font-size: 2.5vw; /* Ajusta o tamanho da fonte do h2 */
+    font-size: 2.5vw;
     margin-bottom: 15px;
 }
 
 .contact-info h4 {
-    font-size: 1.5vw; /* Ajusta o tamanho da fonte do h4 */
+    font-size: 1.5vw; 
     margin-bottom: 10px;
 }
 
 .contact-info img {
     display: block;
     margin: 20px auto;
-    width: 150px; /* Ajusta o tamanho da imagem das redes sociais */
+    width: 150px; 
 }
