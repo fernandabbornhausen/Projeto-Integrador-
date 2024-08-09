@@ -105,22 +105,25 @@ p { /*Subtexto*/
 .evento button:hover { /*Mouse sobre o botão*/
     background-color: #0a5247; /*Cor quando o mouse esta sobre ele*/
 } 
-
-.menu {
-    display: flex;
-    justify-content: right;
-}
 header {
     background-color: lightgray;
-    width: 100%;
-    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    margin-bottom: 5px;
 }
-menu i{
-    font-size: 16px;
+header img {
+    width: 100px;
 }
-menu ul{
+ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+} 
+nav ul li {
+    padding-left: 15px;
     list-style-type: none;
 }
-header ul li{
-    display: inline-block;
+.menu {
+    text-decoration:dotted;
 }
