@@ -105,15 +105,12 @@ p { /*Subtexto*/
 .evento button:hover {
     background-color: #0a5247;
 } 
-<<<<<<< HEAD
 
 .menu {
     display: flex;
     justify-content: right;
 }
 
-=======
->>>>>>> 1198bc10774f244018daac269dfe9fcc6b1fc068
 header {
     background-color: lightgray;
     display: flex;
@@ -121,7 +118,6 @@ header {
     padding: 1px;
     margin-bottom: 5px;
 }
-<<<<<<< HEAD
 
 menu i {
     font-size: 16px;
@@ -134,7 +130,6 @@ menu ul {
 header ul li {
     display: inline-block;
 }
-=======
 header img {
     width: 100px;
 }
@@ -150,4 +145,3 @@ nav ul li {
 .menu {
     text-decoration:dotted;
 }
->>>>>>> 1198bc10774f244018daac269dfe9fcc6b1fc068
