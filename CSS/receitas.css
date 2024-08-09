@@ -6,15 +6,24 @@ body {
 }
 
 header {
-    text-align: center;
-    padding: 20px 0;
+    display: flex;
+    align-items: center;
     background-color: #F0F0F0;
+    padding: 10px 20px;
+    position: relative;
+}
+
+header .logo {
+    width: 100px;
+    margin-right: 20px;
 }
 
 h1 {
     color: #556B2F;
     font-size: 5em;
     margin: 0;
+    text-align: center;
+    flex-grow: 1;
 }
 
 main {

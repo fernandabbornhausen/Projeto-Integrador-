@@ -1,11 +1,9 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo do corpo */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -18,7 +16,6 @@ body {
     min-height: 100vh; 
 }
 
-/* Estilo do cabeçalho */
 header {
     position: fixed;
     top: 0;
@@ -57,8 +54,8 @@ main {
     width: 100%;
     padding: 20px;
     margin-top: 80px; 
-
 }
+
 .content-wrapper {
     display: flex;
     align-items: center;
@@ -68,13 +65,11 @@ main {
     margin: 0 auto; 
 }
 
-
 .atendente-img {
     width: 300px; 
     height: auto;
     border-radius: 10px; 
 }
-
 
 .contact-info {
     text-align: center; 

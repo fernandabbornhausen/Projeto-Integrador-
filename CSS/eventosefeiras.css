@@ -4,21 +4,21 @@
     font-family: "jetbrains";
     src: url(./JetBrainsMono[wght].ttf);
 }
-body { /*Estiliza o corpo da pagina*/
-    background-color: #e7e8e9; /*Fundo da pagina*/
+body { 
+    background-color: #e7e8e9; 
     font-family: Arial, sans-serif;
     margin: 0; 
     padding: 0; 
 } 
 
-.superior { /*Estiliza a parte superior da pagina: texto, busca*/
-    text-align: center; /*Alinha o texto para o centro*/
+.superior { 
+    text-align: center; 
     padding: 20px;
 } 
 
-h1 { /*Texto principal*/
-    color: #0a5247; /*Cor do texto*/
-    font-size: 45px; /*Tamanho da fonte*/
+h1 { 
+    color: #0a5247; 
+    font-size: 45px; 
     font-family: rocaone;
 } 
 
@@ -31,48 +31,48 @@ p { /*Subtexto*/
     text-align: left;
 } 
 
-.busca { /*barra de pesquisa*/
-    margin: 10px 0; /*Margem acima e abaixo da barra de pesquisa 10px*/
+.busca { 
+    margin: 10px 0; 
     text-align: right;
 } 
 
-.busca input { /*quando clica para digitar*/
-    padding: 10px; /*Adiciona preenchemento, ou seja, tamanho interno*/
+.busca input { 
+    padding: 10px; 
     font-size: 16px;
-    border: 1px solid #ccc; /*Borda quando clica, ou seja, sublinhado*/
-    border-radius: 10px; /*Arredonda os cantos da borda*/
-    width: 200px; /*Largura do campo de pesquisa*/
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    width: 200px; 
 } 
 
-.busca button { /*Botao de pesquisar*/
-    background-color: #0a5247; /*Cor de fundo*/
-    border: none; /*Remove todo tipo de borda do botão*/
-    padding: 10px; /*Preenchemento interno*/
-    border-radius: 5px; /*Arredondar os cantos*/
-    cursor: pointer; /*Mudar cursor para ponteiro, ou seja, dedo apontando*/
-    margin-left: 10px; /*Fundo da pagina*/
+.busca button { 
+    background-color: #0a5247; 
+    border: none; 
+    padding: 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-left: 10px; 
 } 
 
-.busca button img { /*Imagem de lupa para buscar*/
-    width: 16px; /*Largura*/
-    height: 16px; /*Altura*/
+.busca button img { 
+    width: 16px; 
+    height: 16px; 
 } 
 
-.eventos { /*Todos os eventos disponíveis*/
-    display: flex; /*A definição dele está como flex, o tamanho se altera de acordo com o conteúdo que tem dentro, não é pre-definido*/
-    justify-content: space-around; /*Os elementos todos terão serão distribuidos igual, com espaço ao redor*/
-    flex-wrap: wrap; /*Se o tamanho do elemento execeder, ele pula pra proxima linha, sem alterar o tamanho da largura*/
+.eventos { 
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
 }
 
-.evento { /*Onde cada evento fica (dentro do seu espaço branco)*/
+.evento {
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /*Sombreado em volta, 2 de propagação, 4 de desfoque, da cor preta*/
-    width: 300px; /*Largura */
-    margin: 20px; /*Margem invisível entre um cartão e outro*/
-    text-align: center; /*Centralizar texto, no caso, nome do evento*/
-    padding: 10px; /*Preenchemento interno de cada cartão de evento*/
-    overflow: hidden; /*Não alterar o nome o tamanho da imagem ao dar o zoom*/
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
 }
 
 .evento img {
@@ -91,36 +91,40 @@ p { /*Subtexto*/
     color: #333;
 }
 
-.evento button { /*Botao dentro da aba de eventos (inscrever-se)*/
-    background-color: #0a5247; /*Cor de fundo*/
-    color: white; /*Cor do texto*/
+.evento button {
+    background-color: #0a5247;
+    color: white;
     border: none;
-    padding: 20px 85px; /*Preenchemento vertical, horizontal*/
-    border-radius: 25px; 
-    cursor: pointer; /*Mudar o cursor para o dedo quando passa o mouse*/
+    padding: 20px 85px;
+    border-radius: 25px;
+    cursor: pointer;
     font-size: 14px;
     margin: 10px 0;
 } 
  
-.evento button:hover { /*Mouse sobre o botão*/
-    background-color: #0a5247; /*Cor quando o mouse esta sobre ele*/
+.evento button:hover {
+    background-color: #0a5247;
 } 
 
 .menu {
     display: flex;
     justify-content: right;
 }
+
 header {
     background-color: lightgray;
     width: 100%;
     margin-bottom: 12px;
 }
-menu i{
+
+menu i {
     font-size: 16px;
 }
-menu ul{
+
+menu ul {
     list-style-type: none;
 }
-header ul li{
+
+header ul li {
     display: inline-block;
 }
