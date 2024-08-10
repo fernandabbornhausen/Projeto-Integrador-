@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #556B2F;
+    background-color:  #0a5247;
     color: white;
     padding: 20px;
     text-align: center;
@@ -40,7 +40,7 @@ main img {
 }
 
 h3 {
-    color: #556B2F;
+    color:  #0a5247;
     font-size: 1.8em;
     margin-bottom: 10px;
     text-align: center;
@@ -60,7 +60,7 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #556B2F; 
+    background-color:  #0a5247; 
     padding: 10px 20px;
     z-index: 1000; 
 }
