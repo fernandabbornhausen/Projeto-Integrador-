@@ -25,8 +25,7 @@ main section div{
     padding: 20px;
     width: 300px;
     height: 250px;
-    text-align: center;
-    
+    text-align: center;   
     border-radius: 20px;
 }
 main section div h3{
@@ -35,7 +34,8 @@ main section div h3{
 header {
     background-color: lightgray;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     padding: 1px;
     margin-bottom: 5px;
 }
@@ -50,4 +50,17 @@ ul {
 nav ul li {
     padding-left: 15px;
     list-style-type: none;
+}
+.menu nav ul li a {
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.6s;
+    color:#0a5247;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 14px, 0.5);
+}
+.menu nav ul li a:hover {
+    background-color:white;
 }
