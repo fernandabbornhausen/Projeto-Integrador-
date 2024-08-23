@@ -1,6 +1,6 @@
-h1 { /*Texto principal*/
-    color: white; /*Cor do texto*/
-    font-size: 50px; /*Tamanho da fonte*/
+h1 { 
+    color: white; 
+    font-size: 50px; 
     font-family: rocaone;
     text-align: center;
 } 
