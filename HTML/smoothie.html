@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receita de Smoothie</title>
     <link rel="stylesheet" href="../CSS/smoothie.css">
+    <script src="../Java/smoothie.js" defer></script>
 </head>
 <body>
     <header>
@@ -27,19 +28,24 @@
         <h2>Smoothie Verde Energizante</h2>
         <img src="../fotos/receitas_2 - Copia.png" alt="">
         <h3>Ingredientes:</h3>
-        <h5>1 banana madura</h5>
-        <h5>1 xícara de espinafre fresco</h5>
-        <h5>1/2 abacate maduro</h5>
-        <h5>1/2 xícara de leite de amêndoas (ou outro leite vegetal de sua preferência)</h5>
-        <h5>1 colher de sopa de sementes de chia (opcional, para mais fibras e ômega-3)</h5>
-        <h5>Mel ou adoçante a gosto (opcional)</h5>
+        <div id="ingredientes">
+            <h5>1 banana madura</h5>
+            <h5>1 xícara de espinafre fresco</h5>
+            <h5>1/2 abacate maduro</h5>
+            <h5>1/2 xícara de leite de amêndoas (ou outro leite vegetal de sua preferência)</h5>
+            <h5>1 colher de sopa de sementes de chia (opcional, para mais fibras e ômega-3)</h5>
+            <h5>Mel ou adoçante a gosto (opcional)</h5>
+        </div>
         <h3>Instruções:</h3>
-        <h5>
+        <h5 id="instrucoes">
             Coloque todos os ingredientes no liquidificador.
             Bata até obter uma mistura homogênea e cremosa.
             Prove e ajuste o adoçante, se necessário.
             Despeje em um copo e sirva imediatamente. Este smoothie é uma excelente maneira de começar o dia com energia e nutrientes.
         </h5>
+        <button onclick="changeLanguageSmoothie('pt-br')">Português</button>
+        <button onclick="changeLanguageSmoothie('en')">English</button>
+
     </main>
 </body>
 </html>

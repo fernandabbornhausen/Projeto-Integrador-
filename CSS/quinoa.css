@@ -92,3 +92,23 @@ h5 {
     text-indent: 1em;
     text-align: justify;
 }
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #0a5247;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #06392f;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}

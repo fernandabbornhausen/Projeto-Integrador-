@@ -95,3 +95,18 @@ h5 {
     text-indent: 1em;
     text-align: justify;
 }
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #0a5247;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #06392f;
+}
