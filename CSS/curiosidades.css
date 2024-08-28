@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    font-family: Arial, sans-serif;
+    font-family: url(../Fontes/JetBrainsMono-Bold.ttf),sans-serif;
     background-color: #F0F0F0;
     color: #333;
     line-height: 1.6;

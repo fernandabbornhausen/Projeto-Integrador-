@@ -9,6 +9,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0; 
     padding: 0; 
+    text-align: center;
 } 
 
 .superior { 
@@ -61,7 +62,6 @@ p {
 .eventos { 
     display: flex; 
     justify-content: space-around; 
-    flex-wrap: wrap; 
 }
 
 .evento {
@@ -89,6 +89,8 @@ p {
     padding: 10px;
     font-size: 16px;
     color: #333;
+    font-size: 1em; 
+    line-height: 1px;
 }
 
 .evento button {
