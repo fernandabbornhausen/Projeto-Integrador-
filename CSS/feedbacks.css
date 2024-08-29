@@ -67,5 +67,6 @@ nav ul li {
     box-shadow: rgba(0, 0, 14px, 0.5);
 }
 .menu nav ul li a:hover {
-    background-color:white;
+    background-color:#0a5247;
+    color:white;
 }

@@ -27,28 +27,28 @@
         <h1>EVENTOS E FEIRAS</h1>
         <p>Fique por dentro dos eventos e feiras próximas a sua região:</p>
         <div class="busca">
-            <input type="text" placeholder="Insira sua cidade">
-            <button><img src="../fotos/lupa.png" alt="Buscar"></button>
+            <input type="text" id="buscar" placeholder="Insira sua cidade"> <!-- Adicionado id -->
+            <button id="search-button"><img src="../fotos/lupa.png" alt="Buscar"></button> <!-- Adicionado id -->
         </div>
-        <div class="eventos">
-            <div class="evento">
+        <div class="eventos" id="feiras">
+            <div class="evento" datacity="São Paulo"> <!-- Adicionado data-city -->
                 <img src="../fotos/bio_brasil.png" alt="Bio Brazil Fair / BioFach América Latina">
-                <p>Bio Brazil Fair/ BioFach</p>
-                <p>América Latina (São Paulo, SP)</p>
+                <p>Bio Brazil Fair/ BioFach América Latina (São Paulo, SP)</p>
                 <button>INSCREVA-SE</button>
             </div>
-            <div class="evento">
+            <div class="evento" datacity="RJ"> <!-- Adicionado data-city -->
                 <img src="../fotos/green_rio.jpg" alt="Green Rio">
                 <p>Green Rio (Rio de Janeiro, RJ)</p>
                 <button>INSCREVA-SE</button>
             </div>
-            <div class="evento">
+            <div class="evento" datacity="SP"> <!-- Adicionado data-city -->
                 <img src="../fotos/feira.jpeg" alt="Feira da Reforma Agrária">
-                <p>Feira Nacional de Agricultura</p>
-                <p>Familiar e Reforma Agrária</p>
+                <p>Feira Nacional de Agricultura Familiar e Reforma Agrária</p>
                 <button>INSCREVA-SE</button>
             </div>
         </div>
+        <p id="no-results" style="display: none;">Cidade não encontrada.</p> <!-- Adicionado -->
     </div>
+    <script src="/Java/eventosefeitas.js"></script> <!-- Adicionado -->
 </body>
 </html>

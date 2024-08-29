@@ -5,20 +5,21 @@ h1 {
     color: white;
     text-align: center;
     margin: 0;
-    height: 50;
-    font-size: 50px;
+    height: 50px;
+    font-size: 40px;
 }
 h2 {
     color: white;
     text-align: center;
     margin: 0;
     height: 50;
-    font-size: 50px;
+    font-size: 40px;
 }
 p {
     color: white;
     text-align: left;
     font-size: 22px;
+    height: 50px;
 }
 h3 {
     text-align: center;
@@ -65,15 +66,17 @@ nav ul li {
 }
 .menu nav ul li a {
     padding: 10px 20px;
-    font-family: url(../Fontes/RocaOne-Th.ttf), sans-serif;
+    font-family: url(../Fontes/JetBrainsMono-Bold.ttf), sans-serif;
     font-size: 16px;
     text-decoration: none;
     transition: 0.6s;
-    color:#0a5247;
     border-radius: 20px;
+    color:#0a5247;
+    transition: background-color 0.6s;
 }
 .menu nav ul li a:hover {
-    background-color:white;
+    background-color:#0a5247;
+    color: white;
 }
 main section div h4{
     padding-bottom: 150px;
@@ -109,6 +112,7 @@ body {
     font-size: 20px;
     border-radius: 50%;
     margin: 50px 195px;
+    cursor: pointer;
 }
 .fundo nav ul{
     justify-content: space-between;

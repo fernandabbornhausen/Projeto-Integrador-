@@ -6,7 +6,7 @@
 
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: url(../Fontes/RocaOne-Th.ttf), sans-serif;
     line-height: 1.6;
     color: #333;
     background: url('../fotos/1.jpg') no-repeat center center fixed;
