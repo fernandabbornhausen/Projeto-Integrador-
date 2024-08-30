@@ -9,46 +9,46 @@
 <body>
     <header>
         <a href="../index.html">
-            <img src="../fotos/logo_contato.png.png">
+            <img src="../fotos/logo_contato.png.png" alt="Logo">
         </a>
-    <div class="menu">
-        <nav>
-            <ul>
-                <li><a href="../HTML/sobrenos.html">SOBRE NÓS</a></li>
-                <li><a href="../HTML/eventosefeiras.html">EVENTOS E FEIRAS</a></li>
-                <li><a href="../HTML/feedbacks.html">FEEDBACKS</a></li>
-                <li><a href="../HTML/curiosidades.html">CURIOSIDADES</a></li>
-                <li><a href="../HTML/receitas.html">RECEITAS</a></li>
-            </ul>
-        </nav>
-    </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="../HTML/sobrenos.html">SOBRE NÓS</a></li>
+                    <li><a href="../HTML/eventosefeiras.html">EVENTOS E FEIRAS</a></li>
+                    <li><a href="../HTML/feedbacks.html">FEEDBACKS</a></li>
+                    <li><a href="../HTML/curiosidades.html">CURIOSIDADES</a></li>
+                    <li><a href="../HTML/receitas.html">RECEITAS</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <div class="superior">
         <h1>EVENTOS E FEIRAS</h1>
         <p>Fique por dentro dos eventos e feiras próximas a sua região:</p>
         <div class="busca">
-            <input type="text" id="buscar" placeholder="Insira sua cidade"> <!-- Adicionado id -->
-            <button id="search-button"><img src="../fotos/lupa.png" alt="Buscar"></button> <!-- Adicionado id -->
+            <input type="text" id="buscar" placeholder="Insira sua cidade"> 
+            <button id="search-button"><img src="../fotos/lupa.png" alt="Buscar"></button> 
         </div>
         <div class="eventos" id="feiras">
-            <div class="evento" datacity="São Paulo"> <!-- Adicionado data-city -->
+            <div class="evento" data-city="São Paulo"> 
                 <img src="../fotos/bio_brasil.png" alt="Bio Brazil Fair / BioFach América Latina">
-                <p>Bio Brazil Fair/ BioFach América Latina (São Paulo, SP)</p>
+                <h4>Bio Brazil Fair/ BioFach América Latina (São Paulo, SP)</h4>
                 <button>INSCREVA-SE</button>
             </div>
-            <div class="evento" datacity="RJ"> <!-- Adicionado data-city -->
+            <div class="evento" data-city="Rio de Janeiro"> 
                 <img src="../fotos/green_rio.jpg" alt="Green Rio">
-                <p>Green Rio (Rio de Janeiro, RJ)</p>
+                <h4>Green Rio (Rio de Janeiro, RJ)</h4>
                 <button>INSCREVA-SE</button>
             </div>
-            <div class="evento" datacity="SP"> <!-- Adicionado data-city -->
+            <div class="evento" data-city="São Paulo"> 
                 <img src="../fotos/feira.jpeg" alt="Feira da Reforma Agrária">
-                <p>Feira Nacional de Agricultura Familiar e Reforma Agrária</p>
+                <h4>Feira Nacional de Agricultura Familiar e Reforma Agrária (São Paulo, SP)</h4>
                 <button>INSCREVA-SE</button>
             </div>
         </div>
-        <p id="no-results" style="display: none;">Cidade não encontrada.</p> <!-- Adicionado -->
+        <p id="no-results" style="display: none;">Cidade não encontrada.</p> 
     </div>
-    <script src="/Java/eventosefeitas.js"></script> <!-- Adicionado -->
+    <script src="../Java/eventosefeitas.js"></script> 
 </body>
 </html>

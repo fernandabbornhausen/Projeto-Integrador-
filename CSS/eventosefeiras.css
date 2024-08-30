@@ -1,7 +1,6 @@
-
 body { 
     background-color: #e7e8e9; 
-    font-family: url(../Fontes/JetBrainsMono-Bold.ttf), sans-serif;
+    font-family: 'JetBrains Mono', sans-serif;
     margin: 0; 
     padding: 0; 
     text-align: center;
@@ -15,16 +14,15 @@ body {
 h1 { 
     color: #0a5247; 
     font-size: 45px; 
-    font-family: rocaone;
+    font-family: 'Roca One', sans-serif;
 } 
 
 p { 
     color: #333; 
     font-size: 24px; 
-    font-family: jetbrains;
-    flex-wrap: wrap;
     width: 760px;
     text-align: center;
+    margin: 0 auto;
 } 
 
 .busca { 
@@ -57,6 +55,7 @@ p {
 .eventos { 
     display: flex; 
     justify-content: space-around; 
+    flex-wrap: wrap;
 }
 
 .evento {
@@ -68,21 +67,24 @@ p {
     text-align: center;
     padding: 10px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#noResults { /* Adicionado */
+#noResults {
     color: red;
     font-weight: bold;
 }
 
-.evento.hidden { /* Adicionado */
+.evento.hidden {
     display: none;
 } 
 
 .evento img {
     width: 100%;
     border-radius: 15px;
-    transition: transform 0.5;
+    transition: transform 0.5s;
 }
 
 .evento:hover img {
@@ -90,12 +92,14 @@ p {
 }
 
 .evento p {
-    padding: 10px;
+    padding: 10px 0;
     font-size: 16px;
     color: #333;
-    line-height: 10px;
+    line-height: 1.5;
     text-align: center;
+    margin: 0 auto;
     word-wrap: break-word;
+    flex-shrink: 0;
 }
 
 .evento button {
@@ -110,7 +114,7 @@ p {
 } 
  
 .evento button:hover {
-    background-color: #0a5247;
+    background-color: #084d3e;
 } 
 
 .menu {
@@ -126,36 +130,38 @@ header {
     padding: 1px;
     margin-bottom: 5px;
 }
+
 menu ul {
     list-style-type: none;
     display: inline-block;
 }
+
 ul {
     display: flex;
     height: 100%;
     align-items: right;
 } 
+
 nav ul li {
     padding-left: 15px;
     list-style-type: none;
 }
+
 header img {
     width: 100px;
 }
-nav ul li {
-    padding-left: 15px;
-    list-style-type: none;
-}
+
 .menu nav ul li a {
     padding: 10px 20px;
-    font-family: url(../Fontes/JetBrainsMono-Bold.ttf), sans-serif;
+    font-family: 'JetBrains Mono', sans-serif;
     text-decoration: none;
     transition: 0.6s;
-    color:white;
+    color: white;
     transition: background-color 0.6s;
     border-radius: 20px;
 }
+
 .menu nav ul li a:hover {
-    background-color:white;
-    color:#0a5247
+    background-color: white;
+    color: #0a5247;
 }
