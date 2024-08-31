@@ -1,23 +1,23 @@
 document.getElementById('search-button').addEventListener('click', function() {
-    const procurar = document.getElementById('buscar').value.toLowerCase() || document.getElementById('buscar').value.toUpperCase();
+    const procurar = document.getElementById('buscar').value.toLowerCase();
     const eventos = document.querySelectorAll('.evento');
     let found = false;
 
     eventos.forEach(cidade => {
-        const cidadeNome = cidade.getAttribute('data-city').toLowerCase() || cidade.getAttribute('data-city').toUpperCase();
+        const cidadeNome = cidade.getAttribute('data-city').toLowerCase();
 
         if (cidadeNome.includes(procurar)) {
-            cidade.classList.remove('hidden'); // Mostra a cidade correspondente
+            cidade.classList.remove('hidden');
             found = true;
         } else {
-            cidade.classList.add('hidden'); // Esconde a cidade que não corresponde
+            cidade.classList.add('hidden');
         }
     });
 
     const noResults = document.getElementById('no-results');
     if (!found && procurar !== '') {
-        noResults.style.display = 'block'; // Mostra a mensagem de "Nenhum resultado"
+        noResults.style.display = 'block'; 
     } else {
-        noResults.style.display = 'none'; // Esconde a mensagem de "Nenhum resultado"
+        noResults.style.display = 'none';
     }
 });
