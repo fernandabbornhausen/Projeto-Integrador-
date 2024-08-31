@@ -1,10 +1,10 @@
 document.getElementById('search-button').addEventListener('click', function() {
-    const procurar = document.getElementById('buscar').value.toLowerCase();
+    const procurar = document.getElementById('buscar').value.toLowerCase() || document.getElementById('buscar').value.toUpperCase();
     const eventos = document.querySelectorAll('.evento');
     let found = false;
 
     eventos.forEach(cidade => {
-        const cidadeNome = cidade.getAttribute('data-city').toLowerCase();
+        const cidadeNome = cidade.getAttribute('data-city').toLowerCase() || cidade.getAttribute('data-city').toUpperCase();
 
         if (cidadeNome.includes(procurar)) {
             cidade.classList.remove('hidden'); // Mostra a cidade correspondente

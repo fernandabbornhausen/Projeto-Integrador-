@@ -56,6 +56,11 @@ nav ul li {
     padding-left: 15px;
     list-style-type: none;
 }
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
 .menu nav ul li a {
     padding: 10px 20px;
     font-family: url(../Fontes/JetBrainsMono-Bold.ttf), sans-serif;

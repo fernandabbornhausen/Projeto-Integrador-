@@ -70,9 +70,9 @@ main {
 .curiosidades-img {
     width: 50%;
     height: auto;
-    max-width: 700px;
-    border-radius: 10px;
-    margin-right: 20px;
+    max-width: 500px;
+    border-radius: 20px;
+    margin-right: 10px;
 }
 
 .curiosidades-text {
@@ -84,7 +84,7 @@ main {
 
 h1 {
     color: #0a5247; 
-    font-size: 3em;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 

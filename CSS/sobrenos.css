@@ -10,7 +10,7 @@ h1 {
     text-align: center;
     margin: 0;
     height: 50px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h2 {
@@ -55,7 +55,11 @@ header {
 header img {
     width: 100px;
 }
-
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
 .menu nav {
     display: flex;
 }
